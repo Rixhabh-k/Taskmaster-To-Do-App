@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskMater To Do App</title>
+  <!-- Style Sheet  -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+</head>
+<body>
+  <!-- <audio id="audio" src="sounds/checked.mp3" preload="auto"></audio> -->
+  <nav class="navbar">
+    <!-- Left: Logo + Website Name -->
+    <div class="navbar-left">
+      <img src="Assests/logo.png"Logo" class="logo" />
+      <span class="website-name">TaskMaster</span>
+    </div>
+
+    <!-- Right: Mode Toggle + Links + Profile -->
+    <div class="navbar-right">
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="#">Task</a>
+        <a href="/notes.html">Notes</a>
+        <a href="#">Calendar</a>
+      </div>
+      <button class="mode-toggle" id="modeToggle">
+  <i class="fas fa-moon"></i>
+</button>
+      <img src="Assests/profile.jpg" alt="Profile" class="profile-pic" />
+      <!-- <i class="fas fa-bars menu-toggle" id="menuToggle"></i> -->
+    </div>
+  </nav>
+
+  <!-- Hero section Starts here  -->
+
+  <section class="hero-section">
+  <h1>What's on your mind today ?</h1>
+</section>
+
+<!-- Input section  -->
+
+<section class="task-input-section">
+  <input type="text" placeholder="Enter a task..." class="task-input" />
+  <button class="add-task-btn">Add Task</button>
+  <button class="assign-task-btn">Add Task For</button>
+</section>
+
+<!-- Tab bar  -->
+
+<section class="tab-section">
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-tab="today">Today</div>
+    <div class="tab" data-tab="week">Week</div>
+    <div class="tab" data-tab="month">Month</div>
+    <div class="tab" data-tab="year">Year</div>
+    
+
+  </div>
+  <div class="tab-underline"></div>
+</section>
+
+<!-- Task Container  -->
+
+<!-- Task List for Today -->
+<!-- Task Lists for All Tabs -->
+<section class="task-lists-section" id="taskLists">
+  <div class="task-list" data-tab="today"></div>
+  <div class="task-list" data-tab="week" style="display: none;"></div>
+  <div class="task-list" data-tab="month" style="display: none;"></div>
+  <div class="task-list" data-tab="year" style="display: none;"></div>
+  
+
+</section>
+
+  <!-- Task Modal -->
+<div id="taskModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h3>Add Task for Tab</h3>
+    <input type="text" id="modalTaskInput" placeholder="Enter task..." />
+    <select id="modalTabSelect">
+      <option value="week">Week</option>
+      <option value="month">Month</option>
+      <option value="year">Year</option>
+     
+
+    </select>
+    <button id="modalAddBtn">Add</button>
+  </div>
+</div>
+
+<!-- Edit Task Modal -->
+<div id="editModal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <span class="close-edit-btn" style="cursor: pointer; float: right;">&times;</span>
+    <h3>Edit Task</h3>
+    <input type="text" id="editTaskInput" class="modal-input" placeholder="Edit your task..." />
+    <button id="editSaveBtn" class="modal-add-btn">Save</button>
+  </div>
+</div>
+
+<!-- Undo Button  -->
+ <div id="undoToast" class="undo-toast">
+  Task deleted. <button id="undoBtn">Undo</button>
+</div>
+
+
+  <script src="main.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
