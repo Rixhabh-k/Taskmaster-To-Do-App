@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  > An advanced and beautifully designed task management app built using <strong>HTML, CSS, and JavaScript</strong>.
+   An advanced and beautifully designed task management app built using <strong>HTML, CSS, and JavaScript</strong>.
 </p>
 
 <p align="center">
