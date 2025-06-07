@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://taskmaster-to-do-app.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/🔗-Live Demo-blue?style=for-the-badge"></a>
-  <a href="https://github.com/Rixhabh-k/taskmaster-todo-app" target="_blank"><img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/Rixhabh-k" target="_blank"><img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github"></a>
 </p>
 
 ---
