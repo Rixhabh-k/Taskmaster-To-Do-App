@@ -24,7 +24,7 @@
 </p>
 
 
-![TaskMaster](Screenshot 2025-06-08 101102.png)
+
 
 - 📅 Organize your tasks by **Today**, **Week**, **Month**, **Year**, or custom **Date**
 - 📝 Add, edit, delete tasks using a smooth modal interface
