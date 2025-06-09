@@ -23,6 +23,8 @@
   <img src="https://user-images.githubusercontent.com/74038190/212484041-0f28ef57-d6a4-48de-b55e-8b86c78b84c7.gif" width="300"/>
 </p>
 
+![Image](https://github.com/user-attachments/assets/04d53eea-9401-42e7-bdae-b1bfbf0f6abc)
+
 - 📅 Organize your tasks by **Today**, **Week**, **Month**, **Year**, or custom **Date**
 - 📝 Add, edit, delete tasks using a smooth modal interface
 - 🌗 Toggle between **Dark and Light Mode**
