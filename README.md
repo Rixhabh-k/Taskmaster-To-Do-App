@@ -1,6 +1,6 @@
 <h1 align="center">✅ TaskMaster – Advanced To-Do App</h1>
 
-<h1 align="center"> Hello </h1>
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Rixhabh-k&label=Visitors&style=flat-square&color=blue" alt="Visitors Badge"/>
